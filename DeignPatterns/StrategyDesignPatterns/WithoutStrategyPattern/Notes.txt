@@ -1,0 +1,3 @@
+if we see the OffRoadVehicle.java and SportsVehicle.java files, they are having duplicate codes.
+
+this is the problem which is solved bby the strategy designe pattern
