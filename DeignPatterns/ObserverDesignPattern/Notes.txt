@@ -1,0 +1,13 @@
+// Observable
+- We can have more than one type of Observables, that's why we have created the StocksObservable Interface
+- We can implement this interface according to our need, we can have iphone, headphones, earbuds etcc as the Observables
+- Everything inside the Observable class is quite self explainatory
+    - We are maintaining a list of the observers who are willing to get the notification when the product is in stock
+    - in the notifySubscribers() method, we are calling the update() method which is implemented inside the NotificationsObserver class
+
+// observers
+- The only main thing here is that to create the instance of the NotificationsObserver class, we need to pass the object of the observable class to which this NotificationObserver is going to Subscribe 
+
+// Store.java
+- This is the class where we have the main function.
+- we have the object of observer and the Observable here 
