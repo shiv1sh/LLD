@@ -1,0 +1,4 @@
+- This pattern is always used when we need to create objects based on some conditions.
+- The class which helps in creating the objects conditionally are named as Factory classes
+- We create a interface which contains the common methods between the objects
+- The Classes of the objects implements these interfaces 
